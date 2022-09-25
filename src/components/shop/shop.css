@@ -1,0 +1,19 @@
+#shop{
+    margin-top: 20px;
+}
+.shopWrapper{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 1rem 9rem;
+    grid-gap: 30px;
+}
+.cart{
+    position: sticky;
+    top: 5px;
+}

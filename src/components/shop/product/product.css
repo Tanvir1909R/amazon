@@ -1,0 +1,43 @@
+.product{
+    border-radius: 8px;   
+    border: 1px solid #95A0A7;
+    height: 508px;
+    position: relative;
+}
+.product img{
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 6px;
+}
+.productDesc{
+    padding: 8px 6px;
+}
+.productDesc h3{
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+.productDesc h4{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.productDesc p{
+    font-size: .8rem;
+    color: #2A414F;
+    font-weight: 500;
+}
+.product button{
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #FFE0B3;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    padding: 1.1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 1rem;
+}
+.product button:hover{
+    background-color: orange;
+}
