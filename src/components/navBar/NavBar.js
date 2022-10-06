@@ -1,5 +1,6 @@
 import React from 'react'
 import './nav.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -10,10 +11,10 @@ const NavBar = () => {
                     <img src="./images/logo.svg" alt="ema-john  " />
                 </div>
                 <div className="navLinks">
-                    <a href="/">Order</a>
-                    <a href="/">Order Review</a>
-                    <a href="/">Manage Inventory</a>
-                    <a href="/">Login</a>
+                    <Link to="/">Order</Link>
+                    <Link to="/review">Order Review</Link>
+                    <Link to="/inventory">Manage Inventory</Link>
+                    <Link to="/">Login</Link>
                 </div>
             </div>
         </div>
